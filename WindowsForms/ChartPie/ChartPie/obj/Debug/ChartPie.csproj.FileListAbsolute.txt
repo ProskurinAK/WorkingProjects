@@ -1,0 +1,12 @@
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.Properties.Resources.resources
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.UForm_ChartPie.resources
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.csproj.GenerateResource.cache
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.csproj.CoreCompileInputs.cache
+D:\Работа\WindowsForms\ChartPie\ChartPie\bin\Debug\ChartPie.exe.config
+D:\Работа\WindowsForms\ChartPie\ChartPie\bin\Debug\ChartPie.exe
+D:\Работа\WindowsForms\ChartPie\ChartPie\bin\Debug\ChartPie.pdb
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.exe
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.pdb
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.UTest.resources
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.csproj.ResolveComReference.cache
+D:\Работа\WindowsForms\ChartPie\ChartPie\obj\Debug\ChartPie.csproj.AssemblyReference.cache
