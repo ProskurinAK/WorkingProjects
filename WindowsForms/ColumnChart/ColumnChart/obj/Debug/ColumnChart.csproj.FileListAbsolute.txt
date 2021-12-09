@@ -1,0 +1,12 @@
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\bin\Debug\ColumnChart.exe.config
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\bin\Debug\ColumnChart.exe
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\bin\Debug\ColumnChart.pdb
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.csprojAssemblyReference.cache
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.csproj.ResolveComReference.cache
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.Properties.Resources.resources
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.UForm_ColumnChart.resources
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.UTest.resources
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.csproj.GenerateResource.cache
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.csproj.CoreCompileInputs.cache
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.exe
+D:\Работа\WindowsForms\ColumnChart\ColumnChart\obj\Debug\ColumnChart.pdb
