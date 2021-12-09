@@ -1,0 +1,12 @@
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\bin\Debug\ExportSplineChartToExcel.exe.config
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\bin\Debug\ExportSplineChartToExcel.exe
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\bin\Debug\ExportSplineChartToExcel.pdb
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.csprojAssemblyReference.cache
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.Properties.Resources.resources
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.UForm_SplineChart.resources
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.UTest.resources
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.csproj.GenerateResource.cache
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.csproj.CoreCompileInputs.cache
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.exe
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.pdb
+D:\Работа\WindowsForms\ExportSplineChartToExcel\ExportSplineChartToExcel\obj\Debug\ExportSplineChartToExcel.csproj.ResolveComReference.cache
