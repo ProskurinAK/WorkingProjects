@@ -1,0 +1,11 @@
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\bin\Debug\WorkWithPP.exe.config
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\bin\Debug\WorkWithPP.exe
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\bin\Debug\WorkWithPP.pdb
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.csprojAssemblyReference.cache
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.csproj.ResolveComReference.cache
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.Properties.Resources.resources
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.UTest.resources
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.csproj.GenerateResource.cache
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.csproj.CoreCompileInputs.cache
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.exe
+D:\Работа\WindowsForms\PowerPoint\WorkWithPP\WorkWithPP\obj\Debug\WorkWithPP.pdb
