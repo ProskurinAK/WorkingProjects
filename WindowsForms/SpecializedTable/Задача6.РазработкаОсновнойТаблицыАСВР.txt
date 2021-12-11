@@ -1,0 +1,111 @@
+Общая постановка задачи:
+
+Необходимо реализовать модуль специализированной таблицы на технологии Windows Forms/GDI+ в виде класса TTableDynamicList.cs
+таблица должна позволять:
+1. Создавать произвольное кол-во столбцов и строк с указанными размерами
+2. Позволять пользователю изменять ширину/высоту строк/столбцов
+3. Позволять методом перетягивания переставлять местами столбцы/строки рамках узла дерева
+4. Позволять делать невидимыми указанные столбцы
+5. Позволять сворачивать/разворачивать строки (по сути это таблца совмещенная с деревом где в каждую строку может быть вложена другая строка)
+6. Позволять экспортировать таблицу в MS Excel
+7. Позволять "замораживать" первую строку и первый столбец
+8. Позволять копировать/вставлять/вырезать данные
+9. Иметь фильтр на вводимые пользователем в ячейку значения
+10. Иметь возможность быть встроенной в иные компоненты Windows Forms
+
+// Основной класс таблицы
+public class TTableDynamicList
+{
+	// тело отрисовываемой таблицы (скорее свего вам придется модифицировтаь компонент Windows Forms используя GDI+ и Graphics)
+	public GridView RenderTable
+	// Все элементы таблицы
+	public List<TTDL_Item> Items  
+	// вкл/выкл отображение компонента
+	public bool Enbale
+	// Вкл/выкл разрешение на перемещение пользователем колонок
+	public bool Enbale_Move
+	// Вкл/выкл работу фильтра для ячеек
+	public bool Enbale_Filtration
+	// Вкл/выкл заморозку первой конки
+	public bool Freeze_FirstColumn
+	// Вкл/выкл заморозку первой строчки
+	public bool Freeze_FirstRow
+
+	// Конструктор позволяющий встроить компонент в любой другой компонент Windows Forms
+	public  TTableDynamicList(Control Panel);
+	// Добавить колонки с указанными именами
+	public void AddColumn(params string[] Titles)  
+	// Добавить пустую строку - Node это строка в которую хотим вложить новую, если null то вкладываем в корень таблицы
+	public void AddRow(TTDL_Item Node)
+
+  	// Получить все элементы в колонке по ее номеру
+	public List<TTDL_Item> GetColumn(int X)  
+	// Получить все элементы в строке по ее номеру
+	public List<TTDL_Item> GetRow(int Y)  
+	// Получить все элементы в колонке по ее идентификатору
+	public List<TTDL_Item> GetColumn_ID(int ID)  
+	// Получить все элементы в строке по ее идентификатору
+	public List<TTDL_Item> GetRow_ID(int ID) 
+	// Получить строку как узел и все входящие в нее строки по номеру строки
+	public List<List<TTDL_Item>> GetNode(int Y) 
+	// Получить строку как узел и все входящие в нее строки по идентификатору строки
+	public List<List<TTDL_Item>> GetNode_ID(int ID) 
+ 	// Получить ячейку таблицы по номеру колонки и строки
+	public TTDL_Item GetCell(int X, int Y)  	
+	// Получить ячейку таблицы по идентификатору ячейки
+	public TTDL_Item GetCell_ID(int ID) 
+	//
+	// Установить новое значение в ячейку по ее идентификатору
+	public void SetCell_ID(int ID, TTDL_Item Item) 
+	// Установить новое значение в ячейку по номеру колонки и строки
+	public void SetCell(int X, int Y, TTDL_Item Item) 
+	// Установить набор значений в ячейки по порядку от начала по номеру строки
+	public void SetRow(int Y, params string[] Values) 
+	//
+	// Кол-во строк
+	public int Count_Rows() 
+	// Кол-во столбцов
+	public int Count_Columns() 
+	//
+	// Удалить строку по номеру и все вложенные строки в нее
+	public void RemoveRow(int Y)  
+	// Удалить колонку по номеру
+	public void RemoveColumn(int X)  
+	// Удалить все
+	public void RemoveAll()  
+	// Экспортировать таблицу в Эксель
+	public void ExportToExcel(string FileName)  
+	// Копировать таблицу в буфер обмена
+	public void CopyToClipboard()  
+	// Вставить таблицу из буфера обмена
+	public void PasteFromClipboard() 
+
+}
+
+// Класс универсального объекта в таблице
+public class TTDL_Item
+{
+	// Вкл/выкл работу фильтра для ячеек
+	public bool Enbale_Filtration
+	// Уникальный идентификатор (ячейки)
+	int UID
+	// Уникальный идентификатор (столбца)
+	int UID_Column
+	// Уникальный идентификатор (строки)
+	int UID_Row
+	// Номер столбца в строке для текущего элемента
+	int X
+	// Номер строки
+	int Y
+	// Уникальный идентификатор родителя (-1 если корень таблицы)
+	int Parent_UID;
+	// Цвет офна ячейки
+        Color Background
+	// Цвет шрифта
+	Color Foreground
+	// Шрифт
+	Font FontText
+	// Значение в ячейке
+	string Value;
+}
+

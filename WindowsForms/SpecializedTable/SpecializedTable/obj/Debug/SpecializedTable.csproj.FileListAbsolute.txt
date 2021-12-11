@@ -1,0 +1,11 @@
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\bin\Debug\SpecializedTable.exe.config
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\bin\Debug\SpecializedTable.exe
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\bin\Debug\SpecializedTable.pdb
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.csproj.AssemblyReference.cache
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.Properties.Resources.resources
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.UForm_Test.resources
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.csproj.GenerateResource.cache
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.csproj.CoreCompileInputs.cache
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.exe
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.pdb
+D:\Работа\WindowsForms\SpecializedTable\SpecializedTable\obj\Debug\SpecializedTable.csproj.ResolveComReference.cache
